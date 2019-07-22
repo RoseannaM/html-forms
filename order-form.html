@@ -30,5 +30,54 @@
             </tr>
             </thead>
         </table>
+        <p>Place your orders here! You know you want to.</p>
+        <form>
+            <label for="Firstname">First name: </label>
+            <input type="text" name="Firstname">
+
+            <hr style="visibility : hidden">
+
+            <label for="lastname">Last name: </label>
+            <input type="text" name="lastname">
+
+            <hr style="visibility : hidden">
+
+            <label for="melontype">Melon Type </label>
+            <select name="melontype">
+                <option value="Watermelon">Watermelon</option>
+                <option value="Honeydew">Honeydew</option>
+                <option value="Crenshaw">Crenshaw</option>
+                <option value="Canary">Canary</option>
+            </select>
+
+            <hr style="visibility : hidden">
+
+            <label for="quantity">Quantity*: </label>
+            <input type="number" name="quantity" min="1" max="100">
+
+            <hr style="visibility : hidden">
+
+            <label for="time"><b>Delivery Time: </b> </label>
+            
+            <input type="radio" name="time" value="am">
+            <label for="am">12am-12pm</label>
+            
+            <input type="radio" name="time" value="pm">
+            <label for="pm">12pm-12am</label>
+            
+            <input type="radio" name="time" value="wat">
+            <label for="wat">Time is an illusion</label>
+
+            <hr style="visibility : hidden">
+
+            <label for="returning">Returning Customer: </label>
+
+            <input type="radio" name="returning" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="returning" value="no">
+            <label for="no">No</label>
+
+
+        </form>
     </body>
 </html>
